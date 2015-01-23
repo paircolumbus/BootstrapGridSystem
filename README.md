@@ -37,4 +37,6 @@ Finally, and this will likely be pretty hard, you need to arrange the pictures o
 
 ![BootstrapFourResult](http://i.imgur.com/RQbrUw2.png)
 
+The entire collage should scale smoothly as you increase and decrease the width of your browser.
+
 Best of luck, and don't be afraid to ask for help. Follow the directions in the comments in each file to achieve the goal of each exercise. Some of them you'll simply be adding classes, others you'll have to add additional markup.
