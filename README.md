@@ -1,6 +1,6 @@
 # Bootstrap Grid System
 __Skill Level:__ Intermediate  
-__Time Limit:__ 1 hour?  
+__Time Limit:__ 30 minutes  
 
 [Bootstrap](http://getbootstrap.com/) is a front-end framework designed to make responsive, fluid design layouts quickly and easily. [Designed by a few developers at Twitter](http://en.wikipedia.org/wiki/Bootstrap_%28front-end_framework%29) as a means to encourage consistency across their internal tools, they eventually released it for the public to use.
 
