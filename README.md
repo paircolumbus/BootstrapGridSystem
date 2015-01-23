@@ -1,4 +1,4 @@
-# BootstrapGridSystem
+# Bootstrap Grid System
 __Skill Level:__ Intermediate  
 __Time Limit:__ 1 hour?  
 
