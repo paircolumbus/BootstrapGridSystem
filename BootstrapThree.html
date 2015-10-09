@@ -8,11 +8,15 @@
     
     <!-- You'll need to add a bit of your own styling to get the desired result. -->
     <style type="text/css">
-
+      .block {
+        height: 200px;
+        overflow: auto;
+      }
     </style>
 </head>
 <body>
-    <!-- Add the divs you'll need to achieve the desired result bellow this line. -->
-
+    <div style="background-color: black" class="block col-xs-12 col-sm-6"></div>
+    <div style="background-color: blue" class="block col-xs-12 col-sm-6 col-md-3"></div>
+    <div style="background-color: red" class="block col-md-3 hidden-xs hidden-sm"></div>
 </body>
 </html>

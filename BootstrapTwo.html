@@ -9,12 +9,21 @@
         .fill {
           border: 1px solid black;
           background-color: yellow;
+          overflow: auto;
         }
     </style>
 </head>
 <body>
     <!-- A little less help this time. You'll need to add the remaining divs, and use the fill class from the style defined at the top of the doc. -->
-    <div class="fill">This first column will be too large when the rows wrap, so you have to figure out how to get the second row to display properly.</div>
+    <div class="container">
+        <div class="fill col-xs-6 col-sm-3">This first column will be too large when the rows wrap, so you have to figure out how to get the second row to display properly.</div>
+        <div class="fill col-xs-6 col-sm-3">Second</div>
+
+        <div class="clearfix visible-xs-block"></div>
+        
+        <div class="fill col-xs-6 col-sm-3">Third</div>
+        <div class="fill col-xs-6 col-sm-3">Fourth</div>
+    </div>
 
 </body>
 </html>
