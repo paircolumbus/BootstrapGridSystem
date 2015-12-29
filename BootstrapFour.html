@@ -1,27 +1,43 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <style type="text/css">
-        .nopadding {
-           padding: 0;
-        }
-    </style>
-</head>
-<body>
-    <!-- Use the cute kitty pictures bellow, and arrange them into the desired result. You'll need the one style item defined above to complete this properly. The rest is all Bootstrap. -->
 
-    <img class='img-responsive' src='http://placekitten.com/g/490/490'>
-    <img class='img-responsive' src='http://placekitten.com/g/500/500'>
-    <img class='img-responsive' src='http://placekitten.com/g/510/510'>
-    <img class='img-responsive' src='http://placekitten.com/g/495/495'>
-    <img class='img-responsive' src='http://placekitten.com/g/810/810'>
-    <img class='img-responsive' src='http://placekitten.com/g/520/520'>
-    <img class='img-responsive' src='http://placekitten.com/g/530/530'>
-    <img class='img-responsive' src='http://placekitten.com/g/540/540'>
-    <img class='img-responsive' src='http://placekitten.com/g/550/550'>
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <style type="text/css">
+    .nopadding {
+      padding: 0;
+      margin: 0;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Use the cute kitty pictures below, and arrange them into the desired result. You'll need the one style item defined above to complete this properly. The rest is all Bootstrap. -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="row">
+          <img class='img-responsive nopadding col-xs-6 col-sm-6 col-md-6 col-lg-6' src='./490'>
+          <img class='img-responsive nopadding col-xs-6 col-sm-6 col-md-6 col-lg-6' src='./500'>
+        </div>
+        <div class="row">
+          <img class='img-responsive nopadding col-xs-6 col-sm-6 col-md-6 col-lg-6' src='./510'>
+          <img class='img-responsive nopadding col-xs-6 col-sm-6 col-md-6 col-lg-6' src='./495'>
+        </div>
+      </div>
+      <img class='img-responsive nopadding col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-6 col-sm-offset-6 col-md-offset-6 col-lg-offset-6' src='./810'>
+
+    </div>
+    <div class="row">
+      <img class='img-responsive nopadding col-xs-3 col-sm-3 col-md-3 col-lg-3' src='./520'>
+      <img class='img-responsive nopadding col-xs-3 col-sm-3 col-md-3 col-lg-3' src='./530'>
+      <img class='img-responsive nopadding col-xs-3 col-sm-3 col-md-3 col-lg-3' src='./540'>
+      <img class='img-responsive nopadding col-xs-3 col-sm-3 col-md-3 col-lg-3' src='./550'>
+    </div>
 </body>
+
 </html>
