@@ -8,11 +8,30 @@
     
     <!-- You'll need to add a bit of your own styling to get the desired result. -->
     <style type="text/css">
+      .red-fill {
+        background: red;
+        height: 150px;
+      }
 
+      .blue-fill {
+        background: blue;
+        height: 150px;
+      }
+
+      .black-fill {
+        background: black;
+        height: 150px;
+      }
     </style>
 </head>
 <body>
-    <!-- Add the divs you'll need to achieve the desired result bellow this line. -->
-
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-6 black-fill"></div>
+      <div class="col-md-3 col-sm-6 blue-fill"></div>
+      <div class="col-md-3 hidden-sm hidden-xs red-fill"></div>
+    </div>
+    
+  </div>
 </body>
 </html>
